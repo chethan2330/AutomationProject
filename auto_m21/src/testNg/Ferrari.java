@@ -14,6 +14,6 @@ public class Ferrari {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.ferrari.com/en-IN");
-		Reporter.log("New car has launched",true);
+		Reporter.log("New",true);
 }
 }
